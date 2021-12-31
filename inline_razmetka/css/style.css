@@ -1,3 +1,37 @@
-h1 {
-    color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+header, footer, nav {
+    padding: 30px;
+    background-color: aquamarine;
+}
+nav {
+    background-color: blanchedalmond;
+}
+
+.main-wrapper {
+    font-size: 0;
+}
+
+aside, main {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    background-color: burlywood;
+}
+
+aside {
+    width: 200px;
+}
+
+main {
+    width: calc(100% - 200px);
 }
