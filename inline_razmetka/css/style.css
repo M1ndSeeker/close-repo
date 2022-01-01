@@ -13,8 +13,45 @@ header, footer, nav {
     padding: 30px;
     background-color: aquamarine;
 }
+
 nav {
     background-color: blanchedalmond;
+}
+
+.navigate {
+    margin: 0 -10px;
+    list-style: none;
+    font-size: 0;
+}
+
+.navigate li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.navigate a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(184, 184, 184);
+    
+}
+
+.navigate a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    opacity: 0;
+    background-color: royalblue;
+    transition: opacity .3s, width .3s;
+}
+
+.navigate a:hover::after {
+    width: 100%;
+    opacity: 1;
 }
 
 .main-wrapper {
