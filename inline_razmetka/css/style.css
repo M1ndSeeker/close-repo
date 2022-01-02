@@ -35,3 +35,66 @@ aside {
 main {
     width: calc(100% - 200px);
 }
+
+.cards {
+    margin: 0 -10px;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: calc(100% / 4 - 20px);
+    margin: 10px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    transition: transform .4s ease-in-out;
+}
+
+.card a {
+    display: block;
+    padding: 10px 10px 0;
+    text-decoration: none;
+    text-align: center;
+    color: blueviolet;
+}
+
+.card h2::before, .card h2::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin: 0 12px;
+    border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+    opacity: 0;
+    transition: opacity .4s, transform .4s;
+}
+
+.card h2::before {
+    border-right: 16px solid red;
+}
+
+.card h2::after {
+    border-left: 16px solid red;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.card:hover h2::before, .card:hover h2::after{
+    opacity: 1;
+}
+
+.card h2:hover::before {
+    transform: rotate(180deg);
+}
+
+.card h2:hover::after {
+    transform: rotate(-180deg);
+}
