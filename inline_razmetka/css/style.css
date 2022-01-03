@@ -75,6 +75,32 @@ aside, main {
 
 aside {
     width: 200px;
+    background-color:rgb(250, 240, 153)
+}
+
+.sidebar-menu {
+    padding: 40px 30px;
+    list-style: none;
+}
+
+.sidebar-menu li {
+    display: block;
+    margin: 10px;
+}
+
+.sidebar-menu a {
+    display: block;
+    padding: 10px;
+    background-color: rgb(74, 201, 112);
+    color: indigo;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sidebar-menu a:hover {
+    color: rgb(28, 0, 49);
+    background-color: rgb(4, 146, 47);
 }
 
 main {
