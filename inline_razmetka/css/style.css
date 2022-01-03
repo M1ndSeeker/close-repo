@@ -46,6 +46,9 @@ main {
     width: calc(100% / 4 - 20px);
     margin: 10px;
     font-size: 16px;
+}
+
+.wrapper-img {
     overflow: hidden;
 }
 
