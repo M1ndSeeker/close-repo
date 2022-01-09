@@ -9,6 +9,17 @@
     padding: 0 30px;
 }
 
+.row {
+    margin: 0 -10px;
+    font-size: 0;
+}
+
+.col {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
 header, footer, nav {
     padding: 30px;
     background-color: aquamarine;
@@ -63,15 +74,15 @@ nav {
 }
 
 .navigate {
-    margin: 0 -10px;
+    /* margin: 0 -10px; */
     list-style: none;
-    font-size: 0;
+    /* font-size: 0; */
 }
 
 .navigate li {
-    display: inline-block;
+/*     display: inline-block;
     margin: 0 10px;
-    font-size: 16px;
+    font-size: 16px; */
 }
 
 .navigate a {
@@ -144,15 +155,15 @@ main {
 }
 
 .cards {
-    margin: 0 -10px;
-    font-size: 0;
+/*     margin: 0 -10px;
+    font-size: 0; */
 }
 
 .card {
-    display: inline-block;
+/*     display: inline-block; */
     width: calc(100% / 4 - 20px);
-    margin: 10px;
-    font-size: 16px;
+    margin-bottom: 10px;
+/*     font-size: 16px; */
 }
 
 .wrapper-img {
