@@ -1,4 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@import 'css-parts/layout.css';
+@import 'css-parts/header.css';
+@import 'css-parts/about-section.css';
+@import 'css-parts/why-chooice-us.css';
+@import 'css-parts/tree-columns.css';
+@import 'css-parts/how-we-work.css';
+@import 'css-parts/two-columns-4items.css';
+@import 'css-parts/our-team.css';
+@import 'css-parts/footer.css';

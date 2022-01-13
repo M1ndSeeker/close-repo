@@ -1,0 +1,5 @@
+.person {
+    width: calc(100% / 3 - 15px);
+    height: 100px;
+    background-color: crimson;
+}

@@ -1,0 +1,11 @@
+.left {
+    width: 636px;
+    height: 436px;
+    background-color: rgb(135, 222, 222);
+}
+
+.right {
+    width: 453px;
+    height: 137px;
+    background-color: rgb(106, 160, 95);
+}

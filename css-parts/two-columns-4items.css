@@ -1,0 +1,12 @@
+.wrap {
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: calc(100% / 2 - 30px);
+    height: 138px;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

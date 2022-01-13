@@ -1,0 +1,12 @@
+.logo {
+    display: block;
+    width: 265px;
+    height: 32px;
+    background-color: rgb(131, 87, 22);
+}
+
+nav {
+    width: 600px;
+    height: 32px;
+    background-color: burlywood;
+}

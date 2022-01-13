@@ -1,0 +1,15 @@
+.center {
+    justify-content: center;
+}
+
+.logo {
+    width: 174px;
+    height: 14px;
+    background-color: darkgoldenrod;
+}
+
+.socials {
+    width: 274px;
+    height: 20px;
+    background-color: darkblue;
+}
