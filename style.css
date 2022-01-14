@@ -1,3 +1,5 @@
+@import 'css-parts/fonts.css';
+@import 'css-parts/base.css';
 @import 'css-parts/layout.css';
 @import 'css-parts/header.css';
 @import 'css-parts/about-section.css';

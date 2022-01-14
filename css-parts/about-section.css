@@ -1,11 +1,21 @@
-.left {
-    width: 636px;
-    height: 436px;
-    background-color: burlywood;
+.about-img {
+    max-width: calc(640px - 30px);
 }
 
-.right {
-    width: 453px;
-    height: 137px;
-    background-color: cadetblue;
+.about-content {
+    width: calc(100% - 640px - 30px);
+}
+
+.about-content h2 {
+    font-size: 55px;
+}
+
+.about__header-text {
+    font-size: 26px;
+    color: green;
+}
+
+.about-text {
+    font-size: 18px;
+    color: grey;
 }

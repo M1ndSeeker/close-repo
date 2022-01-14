@@ -1,12 +1,49 @@
+.header-row {
+    justify-content: space-between;
+}
+
 .logo {
-    display: block;
-    width: 265px;
-    height: 32px;
+    display: flex;
+    flex-wrap: nowrap;
     background-color: rgb(131, 87, 22);
 }
 
+.logo img {
+    align-self: center;
+}
+
+.logo__name {
+    font-family: Ubuntu medium;
+    font-size: 37px;
+    align-self: center;
+    margin: 0 5px;
+}
+
+.logo__phrase {
+    font-size: 14px;
+    align-self: flex-end;
+}
+
 nav {
-    width: 600px;
-    height: 32px;
     background-color: burlywood;
+}
+
+.menu {
+    list-style: none;
+    align-content: center;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: grey;
+    padding: 10px 0;
+}
+
+.menu .search {
+    display: block;
+    width: 21px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-image: url('/img/search.png');
 }
