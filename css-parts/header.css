@@ -30,14 +30,13 @@ nav {
 
 .menu {
     list-style: none;
-    align-content: center;
 }
 
 .menu a {
     display: block;
     text-decoration: none;
     color: grey;
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 .menu .search {

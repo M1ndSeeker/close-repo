@@ -1,5 +1,35 @@
+.our-team h2 {
+    font-size: 55px;
+    text-align: center;
+}
+
 .person {
-    width: calc(100% / 3 - 15px);
-    height: 100px;
-    background-color: crimson;
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+}
+
+.our-team .person-name {
+    font-size: 26px;
+    color: green;
+}
+
+.our-team .person-info {
+    font-size: 18px;
+    color: grey;
+}
+
+.our-team .social-links {
+    margin: 0 auto;
+    list-style: none;
+}
+
+.our-team .social-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.our-team .social-links a {
+    display: block;
+    width: 30px;
+    height: 30px;
 }

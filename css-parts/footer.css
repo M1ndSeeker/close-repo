@@ -3,13 +3,31 @@
 }
 
 .footer__logo {
-    width: 174px;
-    height: 14px;
-    background-color: darkgoldenrod;
+    display: flex;
+}
+
+footer img {
+    width: 28px;
+}
+
+footer .footer-logo-text {
+    font-size: 14px;
+    color: grey;
+    align-self: center;
+    margin-left: 15px;
 }
 
 .socials {
-    width: 274px;
     height: 20px;
-    background-color: darkblue;
+    align-self: center;
+}
+
+.socials ul {
+    list-style: none;
+}
+
+.socials a {
+    display: block;
+    width: 20px;
+    height: 20px;
 }
