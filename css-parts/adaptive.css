@@ -1,0 +1,27 @@
+@media screen and (max-width: 1057px) {
+    .about-img, .why-img, .how-img,
+    .about-content, .why-content, .how-content {
+        max-width: 100%;
+    }
+
+    .about-img, .why-img, .how-img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    img {
+        margin: auto;
+    }
+
+    .why-img {
+        order: 1;
+    }
+
+    .why-content {
+        order: 2;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}

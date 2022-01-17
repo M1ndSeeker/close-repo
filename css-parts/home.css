@@ -47,12 +47,12 @@ header .menu .search {
     background-image: url('/img/search.png');
 }
 
-.about-img {
-    max-width: calc(640px - 30px);
+.about-img, .why-img, .how-img {
+    max-width: calc(100% / 2 - 30px);
 }
 
-.about-content {
-    width: calc(100% - 640px - 30px);
+.about-content, .why-content, .how-content {
+    max-width: calc(100% / 2 - 30px);
 }
 
 .tree-columns .building, .tree-columns .phone, .tree-columns .globe {
@@ -75,14 +75,6 @@ header .menu .search {
     text-decoration: none;
     background-color: #1d9d73;
     color: white;
-}
-
-.how-we-work img{
-    max-width: calc(640px - 30px);
-}
-
-.how-we-work .content {
-    width: calc(100% - 640px - 30px);
 }
 
 .how-we-work .mark {
