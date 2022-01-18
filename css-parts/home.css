@@ -55,7 +55,7 @@ header .menu .search {
     max-width: calc(100% / 2 - 30px);
 }
 
-.tree-columns .building, .tree-columns .phone, .tree-columns .globe {
+.building, .phone, .globe {
     width: calc(100% / 3 - 30px);
 }
 
@@ -77,7 +77,7 @@ header .menu .search {
     color: white;
 }
 
-.how-we-work .mark {
+.mark {
     display: inline-block;
     width: 41px;
     height: 32px;
