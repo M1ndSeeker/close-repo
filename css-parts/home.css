@@ -56,7 +56,15 @@ header .menu .search {
 }
 
 .building, .phone, .globe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: calc(100% / 3 - 30px);
+}
+
+.building img, .phone img, .globe img {
+    max-width: 120px;
+    min-height: 120px;
 }
 
 .tree-columns p {
